@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class GameEnding : MonoBehaviour
 {
-    
+    public int rank=0;
+    public RaceControl raceControl;
 
     void OnTriggerEnter(Collider other)
     {
@@ -21,11 +22,14 @@ public class GameEnding : MonoBehaviour
 
     void Fail()
     {
+        rank++;
         print("Fail");
     }
 
     void Success()
     {
+        rank++;
         print("Success");
+        raceControl.EndRace(rank);
     }
 }

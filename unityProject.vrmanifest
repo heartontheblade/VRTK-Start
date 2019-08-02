@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.vrtkstart.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\hasee\\Documents\\unity projects\\VRTK Start\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "VRTK Start [Testing]"
+        }
+      }
+    }
+  ]
+}

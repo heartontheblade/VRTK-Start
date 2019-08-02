@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Vehicles.Car;
 
 public class RaceControl : MonoBehaviour
 {
     public int TotalTime = 4;//总时间
 
-    public Text TimeText;//在UI里显示时间
-    
+    public TextMesh TimeText;//在UI里显示时间    
 
     private SimpleAI[] AIs;
     public GameObject player;
 
+    private float _startingTime, _endingTime;
     
 
     private int second;//秒
@@ -75,7 +76,18 @@ public class RaceControl : MonoBehaviour
             AIs[i].Activate();
         }
         //player.Activate();
-        player.GetComponent<SimpleCarController>().enabled = true;
+        player.GetComponent<CarUserControl>().enabled = true;
+        _startingTime = Time.time;
 
     }
+
+    public void EndRace(int rank)
+    {
+        _endingTime = Time.time;
+        float timeUsed = _endingTime - _startingTime;
+        TimeText.text = "用时" + timeUsed+" 排名："+rank;
+    }
+
+
+ 
 }

@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VRTK_SDKSetup
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: eeda6d41317f444b900e374895f14e95,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: autoPopulateObjectReferences
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actualBoundaries
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actualHeadset
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actualLeftController
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actualRightController
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: modelAliasLeftController
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: modelAliasRightController
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedSystemSDKInfo.baseTypeName
+    value: VRTK.SDK_BaseSystem
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedSystemSDKInfo.fallbackTypeName
+    value: VRTK.SDK_FallbackSystem
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedSystemSDKInfo.typeName
+    value: VRTK.SDK_UnitySystem
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedSystemSDKInfo.descriptionIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedBoundariesSDKInfo.baseTypeName
+    value: VRTK.SDK_BaseBoundaries
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedBoundariesSDKInfo.fallbackTypeName
+    value: VRTK.SDK_FallbackBoundaries
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedBoundariesSDKInfo.typeName
+    value: VRTK.SDK_UnityBoundaries
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedBoundariesSDKInfo.descriptionIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedHeadsetSDKInfo.baseTypeName
+    value: VRTK.SDK_BaseHeadset
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedHeadsetSDKInfo.fallbackTypeName
+    value: VRTK.SDK_FallbackHeadset
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedHeadsetSDKInfo.typeName
+    value: VRTK.SDK_UnityHeadset
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedHeadsetSDKInfo.descriptionIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedControllerSDKInfo.baseTypeName
+    value: VRTK.SDK_BaseController
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedControllerSDKInfo.fallbackTypeName
+    value: VRTK.SDK_FallbackController
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedControllerSDKInfo.typeName
+    value: VRTK.SDK_UnityController
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cachedControllerSDKInfo.descriptionIndex
+    value: 1
+    objectReference: {fileID: 0}
